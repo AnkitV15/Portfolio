@@ -15,7 +15,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <span className="inline-block py-1 px-3 rounded-full bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-sm text-zinc-600 dark:text-zinc-400 mb-6 font-mono transition-colors duration-300">
-                        Full Stack Developer
+                        {siteConfig.role}
                     </span>
                 </motion.div>
 
@@ -25,7 +25,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
                     className="text-5xl md:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-zinc-900 to-zinc-500 dark:from-white dark:to-white/40 transition-all duration-300"
                 >
-                    Ankit Vishwakarma
+                    {siteConfig.name}
                 </motion.h1>
 
                 <motion.p
@@ -34,10 +34,10 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                     className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-8 transition-colors duration-300"
                 >
-                    Crafting digital experiences with{" "}
-                    <span className="text-zinc-900 dark:text-white font-medium transition-colors">Java</span>,{" "}
-                    <span className="text-zinc-900 dark:text-white font-medium transition-colors">Spring Boot</span>, and{" "}
-                    <span className="text-zinc-900 dark:text-white font-medium transition-colors">Modern Web Tech</span>.
+                    {siteConfig.tagline.prefix}{" "}
+                    <span className="text-zinc-900 dark:text-white font-medium transition-colors">{siteConfig.tagline.highlight1}</span>,{" "}
+                    <span className="text-zinc-900 dark:text-white font-medium transition-colors">{siteConfig.tagline.highlight2}</span>, {siteConfig.tagline.suffix}{" "}
+                    <span className="text-zinc-900 dark:text-white font-medium transition-colors">{siteConfig.tagline.highlight3}</span>.
                 </motion.p>
 
                 {/* Social Links */}

@@ -1,5 +1,13 @@
 export const siteConfig = {
   name: "Ankit Ramkumar Vishwakarma",
+  role: "Full Stack Developer",
+  tagline: {
+    prefix: "Crafting digital experiences with",
+    highlight1: "Java",
+    highlight2: "Spring Boot",
+    suffix: "and",
+    highlight3: "Modern Web Tech",
+  },
   title: "Java Backend Developer | Spring Boot | PostgreSQL | REST APIs",
   description: "Portfolio website of Ankit Vishwakarma - showcasing projects, skills, and experience in backend development.",
   accentColor: "#1d4ed8",

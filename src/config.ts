@@ -11,7 +11,7 @@ export const siteConfig = {
     github: "https://github.com/AnkitV15",
   },
   aboutMe:
-    "I am a Computer Science student graduating in 2025 with strong skills in Java, Spring Boot, PostgreSQL, and RESTful APIs. I enjoy building backend systems, solving problems, and working on projects that connect software with real-world impact. I have internship experience building backend services and multiple academic projects in transaction systems and network security. I am eager to join a company as a Java or Backend Developer and contribute from day one.",
+    "I am a Computer Science graduate (2025) with strong skills in Java, Spring Boot, PostgreSQL, and RESTful APIs. I enjoy building backend systems, solving problems, and working on projects that connect software with real-world impact. I have internship experience building backend services and multiple academic projects in transaction systems and network security. I am eager to join a company as a Java or Backend Developer and contribute from day one.",
   skills: [
     "Java",
     "Spring Boot",
@@ -25,18 +25,22 @@ export const siteConfig = {
   ],
   projects: [
     {
-      name: "Tracktrove Micro-Transaction Explorer",
+      name: "ResuCraft",
       description:
-        "Java Spring Boot backend for a micro-transaction platform. Implemented REST APIs, Redis for caching, WebSockets for real-time updates, and automated job scheduling with Quartz.",
-      link: "https://github.com/AnkitV15/Tracktrove-backend", // replace with actual repo link if available
-      skills: ["Java", "Spring Boot", "PostgreSQL", "Redis", "WebSockets"],
+        "An AI-powered resume builder helping developers craft ATS-friendly resumes. Features real-time preview, multiple templates, and smart content suggestions.",
+      link: "https://resu-craft-resume-builder.vercel.app/",
+      github: "https://github.com/AnkitV15/ResuCraft",
+      image: "/Portfolio/Dashboard-ResuCraft.png",
+      skills: ["React", "Spring Boot", "OpenAI API", "PostgreSQL"],
     },
     {
-      name: "Real-Time Intrusion Detection System (IDS)",
+      name: "Rental Service Platform",
       description:
-        "Built an IDS in Python to analyze network traffic and detect suspicious activity. Integrated a machine learning model for classification and developed a Flask dashboard for real-time alerts.",
-      link: "https://github.com/AnkitV15/IDS", // replace with actual repo link
-      skills: ["Python", "Flask", "Scapy", "Machine Learning"],
+        "A comprehensive property management dashboard for owners and tenants. Handles rent collection, maintenance requests, and automated invoicing with payment gateway integration.",
+      link: "https://rentem-dashboard.vercel.app/",
+      github: "https://github.com/AnkitV15/Rental-Service",
+      image: "/Portfolio/Dashboard-Rental.png",
+      skills: ["Java", "Spring Boot", "Microservices", "Razorpay", "React"],
     },
   ],
   hackathons: [
@@ -49,18 +53,19 @@ export const siteConfig = {
     // You can add more hackathons here in the future
   ],
   experience: [
-      {
-        company: "Maharashtra Metro Rail Corp Ltd",
-        title: "Software Engineer Intern",
-        dateRange: "Mar 2025 - Jul 2025",
-        bullets: [
-          "Built and optimized REST APIs using Java and Spring Boot for metro-related data services.",
-          "Integrated external APIs (e.g., Google Maps) to improve location-based features.",
-          "Improved database queries in PostgreSQL, reducing response times by 20%.",
-          "Debugged and fixed critical backend issues to ensure smooth system operations.",
-        ],
-      },
-    ],
+    {
+      company: "Maharashtra Metro Rail Corp Ltd",
+      title: "Software Engineer Intern",
+      dateRange: "Mar 2025 - Jul 2025",
+      logo: "/Portfolio/MahaMetro-Logo.jpg",
+      bullets: [
+        "Built and optimized REST APIs using Java and Spring Boot for metro-related data services.",
+        "Integrated external APIs (e.g., Google Maps) to improve location-based features.",
+        "Improved database queries in PostgreSQL, reducing response times by 20%.",
+        "Debugged and fixed critical backend issues to ensure smooth system operations.",
+      ],
+    },
+  ],
   education: [
     {
       school: "Dr. Babasaheb Ambedkar Technological University",
